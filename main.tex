@@ -1,0 +1,91 @@
+\documentclass{ctexart}
+\author{}
+\date{2016.9.27}
+\title{transportation problems}
+\bibliographystyle{plain}
+\newenvironment{keywords} {\\关键字：\kaishu\zihao{-5}} {}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[numbers,sort&compress,square,super]{natbib}
+\usepackage{graphicx}
+\usepackage{caption,subcaption}%插子图的子标题
+\usepackage{asymptote}
+%\usepackage{ctex}
+
+\begin{document}
+\maketitle
+\section{L3-L4}
+\begin{enumerate}
+
+	\item  \label{item:abstract motion to field}
+	assume the motion is described by
+	\begin{align}
+	\mathbf{r}=\mathbf{f}(\mathbf{c},t)=\mathbf{g}(\mathbf{c})h(t)
+	\end{align}
+	find the expression of the velocity  field $\mathbf{v}$.
+	
+	\item
+	assume the motion is
+	\begin{align}
+	x=ct^2
+	\end{align}
+	use the result of \ref{item:abstract motion to field},find the expression of the velocity  field $v$.
+	\item
+	suppose in a one dimensional flow, the motion of the $c$th fluid element is given by
+	 \begin{equation}
+		x=f(c,t)
+	\end{equation}
+	and the temperature of the flow at time $t$ is distributed as
+	\begin{equation}
+	T=g(x,t)
+	\end{equation} 
+	find the temperature variation rate of the $c$th element.
+	\item
+	The velocity components in an unsteady plane flow are given by
+	\begin{align}
+	u=\frac{x}{1+t}\\
+	v=\frac{2y}{2+t}
+	\end{align}
+	find the path lines and the streamlines equation subjecting to $\mathbf{x = x_0}$ at $t = 0$.
+	
+	\item
+	Let a one-dimensional velocity field be $u = u(x, t)$. The density varies as $\rho = \rho_0(2 -\cos \omega t)$. Find an expression for $u(x, t)$
+	if $u(0, t) = U$.
+	
+	\item
+	The components of a mass flow vector $\rho\mathbf{ u}$ are $\rho u = 4x^2y$, $\rho v = xyz$,
+	$\rho w = yz^2$. Compute the net outflow through the closed surface formed by the planes
+	$x = 0, x = 1, y = 0, y = 1, z = 0, z = 1$.
+	(a) Integrate over the closed surface.
+	(b) Integrate over the volume bounded by that surface.
+	
+	\iffalse
+	\item
+	Water flows through a pipe in a gravitational field as shown in the accompanying figure. Neglect the effects of viscosity and surface tension. Solve the appropriate
+	conservation equations for the variation of the cross-sectional area of the fluid column
+	$A(z)$ after the water has left the pipe at $z = 0$. The velocity of the fluid at $z = 0$ is
+	uniform at $v_0$ and the cross-sectional area is $A_0$
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{"figs/Water flows through a pipe"}
+	\caption{}
+	\label{fig:Waterflowsthroughapipe}
+	\end{figure}
+	\fi
+	\item
+	A two-dimensional object is placed in a $2h$-wide water
+	tunnel as shown. The upstream velocity, $v_1$ , is uniform across the
+	cross section. For the downstream velocity profile as shown, find
+	the value of $v_2$
+	\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{"figs/James 5-1"}
+\caption{}
+\label{fig:James5-1}
+\end{figure}
+
+	
+	\item
+	consider fluid in  a channel of unit width and that the vertical velocity of the fluid  is negligible and the horizontal velocity $u(x,t)$ is roughly constant throughout any cross section of the channel.assume the fluid is incompressible so the density $\rho$ is constant,denote the depth of the fluid as $h(x,t)$ find the mass and momentum conserve equation of the fluid(the gravitational constant is $g$).
+\end{enumerate}
+\end{document}
